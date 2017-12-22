@@ -13,7 +13,7 @@ router.get('/:id', (req, res, next) =>
 )
 
 router.post('/', (req, res, next) =>{
-      console.log(req)
+      console.log(req.body)
   Controller.create(req, res)
 }
 )
